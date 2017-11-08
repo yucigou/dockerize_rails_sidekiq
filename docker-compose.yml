@@ -11,9 +11,6 @@ services:
   sidekiq:
     build: .
     command: bundle exec sidekiq
-    links:
-      - db
-      - redis
     depends_on:
       - db
       - redis
