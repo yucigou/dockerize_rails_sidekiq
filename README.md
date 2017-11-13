@@ -1,7 +1,7 @@
 # Introduction
 
 This project illustrates how to dockerize a Ruby on Rails application
-together with its dependency Sidekiq also being dockerized.
+together with its optional dependency Sidekiq also being dockerized.
 
 # References
 
